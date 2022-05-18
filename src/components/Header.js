@@ -21,7 +21,7 @@ export default function Header() {
             Featured Skills
           </h5>
           <div className="flex items-center space-x-4">
-            <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-1">
+            <div className="mt-4 mb-8 flex flex-wrap items-center gap-1">
               {skills.map((skill) => (
                 <div key={skill} className="px-4 py-1 text-gray-600  border-2 rounded-full">
                   {skill}
