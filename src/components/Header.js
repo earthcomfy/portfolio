@@ -1,4 +1,3 @@
-import profile from "../assets/profile.png";
 import resume from "../assets/resume.pdf";
 import { FaDownload } from "react-icons/fa";
 
