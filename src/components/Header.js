@@ -45,7 +45,7 @@ export default function Header() {
         <div>
           <img
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-            src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="https://images.unsplash.com/photo-1545875615-86f54b81a82d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHRlY2glMjBhbmQlMjBjb2RpbmclMjBibGFja3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
             alt=""
           />
         </div>
