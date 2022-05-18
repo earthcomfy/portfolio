@@ -11,7 +11,7 @@ const projects = [
       "https://github.com/earthcomfy/Django-registration-and-login-system",
   },
   {
-    tags: ["Django", "DRF"],
+    tags: ["API", "Django", "DRF"],
     title: "Recipe Sharing API",
     desc: "A recipe sharing API built using Django rest framework.",
     github: "https://github.com/earthcomfy/recipe-api",
@@ -23,8 +23,9 @@ const projects = [
     github: "https://github.com/earthcomfy/react-recipe-app",
   },
   {
-    tags: ["React.js", "TailwindCSS"],
+    tags: ["portfolio", "React.js", "TailwindCSS"],
     title: "My Portfolio",
+    desc: "My personal website built with React.js and TailwindCSS",
     github: "https://github.com/earthcomfy/portfolio",
   },
 ];

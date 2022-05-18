@@ -1,7 +1,7 @@
 import resume from "../assets/resume.pdf";
 import { FaDownload } from "react-icons/fa";
 
-const skills = ["Python", "Django", "React.js", "Tailwind CSS"];
+const skills = ["Python", "Django", "React.js", "PostgreSQL", "Tailwind CSS"];
 
 export default function Header() {
   return (
@@ -21,7 +21,7 @@ export default function Header() {
             Featured Skills
           </h5>
           <div className="flex items-center space-x-4">
-            <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-2">
+            <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-1">
               {skills.map((skill) => (
                 <div key={skill} className="px-4 py-1 text-gray-600  border-2 rounded-full">
                   {skill}
