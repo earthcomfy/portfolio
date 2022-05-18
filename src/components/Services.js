@@ -1,4 +1,4 @@
-import { FaCode, FaPen } from "react-icons/fa";
+import { FaCode, FaGitAlt, FaPen } from "react-icons/fa";
 import { HiOutlineAdjustments } from "react-icons/hi";
 
 const services = [
@@ -14,13 +14,13 @@ const services = [
   },
   {
     icon: <FaPen className="text-4xl mx-auto inline-block" />,
-    title: "Content Writing",
+    title: "Technical Writing",
     desc: "I write technical articles with clear direction and explanation to directed users",
   },
   {
-    icon: <FaCode className="text-4xl mx-auto inline-block" />,
-    title: "Web Application",
-    desc: "I develop and deliver modern single-page web applications (SPA) using React.js",
+    icon: <FaGitAlt className="text-4xl mx-auto inline-block" />,
+    title: "Collaboration",
+    desc: "I collaborate on different projects with different people on and off campus",
   },
 ];
 

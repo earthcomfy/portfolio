@@ -73,7 +73,7 @@ export default function Contact() {
           <p className="mb-6 text-gray-600">
             Have a question or an inquiry? Fill out the form with some info and
             I'd
-            <span> ♡</span> <span>to help!</span>
+            <span> 💙</span> <span>to help!</span>
           </p>
         </div>
         <div>
@@ -93,7 +93,9 @@ export default function Contact() {
                 })}
               />
               {errors.name && (
-                <span className="text-red-500 text-xs">{errors.name.message}</span>
+                <span className="text-red-500 text-xs">
+                  {errors.name.message}
+                </span>
               )}
             </div>
             <div className="py-1  ">
@@ -129,7 +131,9 @@ export default function Contact() {
                 })}
               />
               {errors.subject && (
-                <span className="text-red-500 text-xs ">{errors.subject.message}</span>
+                <span className="text-red-500 text-xs ">
+                  {errors.subject.message}
+                </span>
               )}
             </div>
             <div className="py-1  ">
@@ -143,7 +147,9 @@ export default function Contact() {
                 })}
               ></textarea>
               {errors.message && (
-                <span className="text-red-500 text-xs ">Please enter a message</span>
+                <span className="text-red-500 text-xs ">
+                  Please enter a message
+                </span>
               )}
             </div>
             <div className="py-3">
