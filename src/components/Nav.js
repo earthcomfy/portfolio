@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const navItems = [
   {
-    href: "/",
+    href: "#",
     name: "About Me",
   },
   {
