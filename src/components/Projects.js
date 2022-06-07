@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="py-12"
+      className="px-4 mx-auto md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
     >
       <h5 className="text-4xl text-center font-light text-gray-600">
         My Projects

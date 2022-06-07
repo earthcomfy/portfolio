@@ -19,7 +19,7 @@ const socials = [
   },
   {
     name: "Email",
-    link: "https://mail.google.com/mail/?view=cm&fs=1&to=hanagetbel93@gmail.com/",
+    link: "mailto:hanagetbel93@gmail.com",
     icon: <FaRegEnvelope />,
   },
 ];
@@ -34,7 +34,6 @@ export default function Footer() {
         </span>{" "}
         by{" "}
         <span
-          className="text-blue-500"
         >
           Hana Belay
         </span>
